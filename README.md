@@ -55,3 +55,9 @@ contract.methods.getData().call()
 - Choose a smart contract: In order to store data on the Ethereum blockchain, you will need to use a smart contract. A smart contract is a program that runs on the Ethereum blockchain and can store and retrieve data. You can either write your own smart contract or use a pre-existing one.
 - Consider the cost: Storing data on the Ethereum blockchain can be expensive, as it requires paying gas fees to the miners who process the transactions. Make sure to take this into account when designing your application.
 - Think about security: It is important to consider security when storing data on the Ethereum blockchain. Make sure to use strong passwords and keep your private keys safe.
+
+------------------
+ERC721.sol
+------------------
+
+This smart contract defines an ERC-721 token with a name and a symbol, and it has one function, mint, which allows the contract owner to create new tokens and assign them to any address. It also implements the required ERC-721 functions, balanceOf, ownerOf, and safeTransferFrom, which allow you to query the balance of an address, determine the owner of a specific token, and transfer tokens between addresses, respectively.
